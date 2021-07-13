@@ -30,6 +30,9 @@ nav{
     color: #FFFFFF;
     border: none;
 }
+.login-space {
+    margin-right: 8px;
+}
 
 
 /*---------- banner----------- */
@@ -57,7 +60,7 @@ nav{
     color: #FFFFFF;
     border: none;
 }
-.banner-main fa-arrow-right{
+.watch-icon{
     margin-left: 8px;
 }
 .banner-image img{
