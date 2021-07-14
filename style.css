@@ -266,7 +266,7 @@ left margin is 180px */
 @media only screen and (max-width: 480px) {
 
 
-    /* responsive banner */
+    /*------------------- responsive banner -----------------*/
 header{
     display: none;
 }
@@ -293,7 +293,7 @@ header{
     margin-left: 16px;
     padding: 0px;
 }
-/* responsive player */
+/*------------------ responsive player ------------------*/
 
 .all-player{
         grid-template-columns: repeat(1,1fr);
@@ -306,7 +306,7 @@ header{
 .player{
     margin-left: 0px;
 }
-/* latest news */
+/*----------------- latest news ----------------*/
 .latest-news{
     width: 100%;
     margin: 0px;
@@ -326,7 +326,7 @@ header{
     margin-left: 16px;
 }
 
-/* Highlight footer */
+/*------------- Highlight footer ----------------------*/
 
 .highlight-footer{
         flex-direction: column;
@@ -360,7 +360,7 @@ header{
 margin-left: 16px;
 }
 
-/* responsive footer */
+/*------------- responsive footer -----------------*/
 
 .footer{
     width: 100%;
@@ -384,12 +384,3 @@ margin-left: 16px;
 }
 }
 
-
-/*--------------- Media quary--------------- */
-/*--------------- Media quary--------------- */
-/* ipad or tablet */
-@media only screen and (max-width: 768px) and (min-width: 481px ){
-
-
-
-}
