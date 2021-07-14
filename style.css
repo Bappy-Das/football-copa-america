@@ -271,7 +271,7 @@ header{
     display: none;
 }
 .container{
-    width: 360px;
+    width: 380px;
     height: 695px;
     }
 .banner{
@@ -280,7 +280,7 @@ header{
     width: 100%;
 }
 .banner-main{
-    margin-left: 16px;
+    margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -298,6 +298,7 @@ header{
 .all-player{
         grid-template-columns: repeat(1,1fr);
         justify-content: center;
+        margin-left: 16px;
 }
 .players{
         margin-bottom: 20px;
@@ -317,6 +318,7 @@ header{
 .update-news{
     flex-direction: column;   
     margin: 0px;
+    margin-left: 16px;
 }
 .news{
     margin-top: 15px;
@@ -347,10 +349,15 @@ header{
 }
 .highlight-info h1{
         font-size: 30px;
+        margin-left: 16px;
 }
 .highlight-info p{
 
         font-size: 16px;
+        margin-left: 16px;
+}
+.highlight-info .whatch-live{
+margin-left: 16px;
 }
 
 /* responsive footer */
