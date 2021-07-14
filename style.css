@@ -42,7 +42,7 @@ nav{
     display: flex;
     /* width: 50%; */
 }
-.half-banner{
+.half{
     width: 50%;
 }
 .banner-main{
@@ -55,7 +55,7 @@ nav{
     font-size: 64px;
     color: #FFFFFF;
 }
-.banner-main button{
+.whatch-live{
     width: 168px;
     height: 44px;
     background-color: #E02C6D;
@@ -75,7 +75,7 @@ nav{
 
 /*--------------- player------------ */
 .players{
-margin:70px 210px 160px 180px ;
+margin:70px 210px 165px 180px ;
 background: #FFFFFF;
 
 /* top margin is 70px
@@ -116,7 +116,30 @@ left margin is 180px */
     font-weight: normal;
 }
 
-
-
+/* highlight-footer */
+.highlight-footer{
+    display: flex;
+    margin-left: 182px;
+    margin-right: 156px;
+    
+}
+.highlight-image img{
+    width: 567px;
+    height: 427px;
+    margin-left: 66px;
+}
+.highlight-info{
+    width: 469px;
+    height: 309px;
+    
+}
+.highlight-info h1{
+    font-size: 48px;
+    
+}
+.highlight-info p{
+    font-weight: normal;
+    font-size: 16px;
+}
 
 
