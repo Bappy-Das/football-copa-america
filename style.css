@@ -173,7 +173,7 @@ left margin is 180px */
 }
 .news:hover{
     transform: scale(1.1); 
-    transition-duration: 3s;
+    transition-duration: 1s;
 }
 .news h3{
     font-size: 15px;
@@ -334,7 +334,7 @@ header{
 .highlight-image img{
         width: 328px;
         height: 248px;
-        margin-top: 30px;
+        margin-top: 100px;
         margin-left: 20px;
         margin-right: 16px;
 }
