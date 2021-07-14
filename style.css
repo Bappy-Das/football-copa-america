@@ -8,8 +8,8 @@ body{
 }
 .container{
     background-color: #2D25A0;
-    width: 1440px;
-    height: 677px;;
+    /* width: 1440px;
+    height: 677px;; */
     overflow:hidden;
 }
 /*------------ nav------------ */
@@ -334,7 +334,7 @@ header{
 .highlight-image img{
         width: 328px;
         height: 248px;
-        /* margin-top: 30px; */
+        margin-top: 30px;
         margin-left: 20px;
         margin-right: 16px;
 }
