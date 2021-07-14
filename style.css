@@ -31,6 +31,10 @@ nav{
     background-color: #E02C6D;
     color: #FFFFFF;
     border: none;
+    transition: all 0.5s;
+}
+.login-button:hover{
+    padding-right: 25px;
 }
 .login-space {
     margin-right: 8px;
@@ -61,6 +65,10 @@ nav{
     background-color: #E02C6D;
     color: #FFFFFF;
     border: none;
+    transition: all 0.5s;
+}
+.whatch-live:hover{
+    padding-left: 25px;
 }
 .watch-icon{
     margin-left: 8px;
@@ -75,7 +83,7 @@ nav{
 
 /*--------------- player------------ */
 .players{
-margin:70px 210px 165px 180px ;
+margin:70px 210px 110px 180px ;
 background: #FFFFFF;
 
 /* top margin is 70px
@@ -115,6 +123,46 @@ left margin is 180px */
     font-size: 16px;
     font-weight: normal;
 }
+/*----------------------------------------- latest news */
+
+.latest-news{
+    text-align: center;
+    background-color: #ffffff;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 150px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    
+}
+.latest-news h1{
+    font-size: 64px;
+}
+.latest-news a{
+    text-decoration: none;
+}
+
+.update-news{
+    display: flex;
+    margin: 20px;
+    /* margin-bottom: 150px; */
+}
+.news{
+    margin-left: 15px;
+    box-shadow: 10px 10px 40px #666565;
+    border-radius: 8px;
+    align-items: center;
+    background: #FFFFFF;
+    padding: 15px;
+    width: 400px;
+
+}
+.news img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
 
 /* highlight-footer */
 .highlight-footer{
