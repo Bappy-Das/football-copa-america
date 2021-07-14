@@ -194,9 +194,9 @@ left margin is 180px */
     
 }
 .highlight-image img{
-    width: 100%;
-    /* width: 567px;
-    height: 427px; */
+    /* width: 100%; */
+    width: 567px;
+    height: 427px;
     margin-left: 66px;
 }
 .highlight-info{
@@ -266,7 +266,6 @@ left margin is 180px */
 @media only screen and (max-width: 480px) {
 
 
-
     /* responsive banner */
 header{
     display: none;
@@ -317,10 +316,12 @@ header{
 }
 .update-news{
     flex-direction: column;   
+    margin: 0px;
 }
 .news{
     margin-top: 15px;
     width: 300px;
+    margin-left: 16px;
 }
 
 /* Highlight footer */
@@ -333,14 +334,14 @@ header{
 .highlight-image img{
         width: 328px;
         height: 248px;
-        margin-top: 30px;
-        margin-left: 16px;
+        /* margin-top: 30px; */
+        margin-left: 20px;
         margin-right: 16px;
 }
 .highlight-info{
         width: 80%;
-        margin-left: 16px;
-        margin-bottom: 50px;
+        margin-left: 20px;
+        margin-bottom: 0px;
     
 }
 .highlight-info h1{
@@ -373,6 +374,14 @@ header{
     font-weight: 700;
     padding: 0px;
 }
+}
+
+
+/*--------------- Media quary--------------- */
+/*--------------- Media quary--------------- */
+/* ipad or tablet */
+@media only screen and (max-width: 768px) and (min-width: 481px ){
+
 
 
 }
