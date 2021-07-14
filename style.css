@@ -264,6 +264,23 @@ header{
 .players{
         margin-bottom: 20px;
 }
+.player{
+    margin-left: 0px;
+}
+/* latest news */
+.latest-news{
+    width: 100%;
+    margin: 0px;
+}
+.latest-news h1{
+    font-size: 36px;
+}
+.update-news{
+    flex-direction: column;   
+}
+.news{
+    margin-top: 15px;
+}
 
 /* Highlight footer */
 
