@@ -79,7 +79,16 @@ nav{
     margin-top: 67px;
     margin-right: 140px;
     margin-bottom: 86px;
+    transition: transform .5s;
 }
+.banner:hover{
+    transition-duration: 3s;
+    transform: scale(1.1); 
+   
+    
+    
+}
+
 
 /*--------------- player------------ */
 .players{
@@ -140,6 +149,7 @@ left margin is 180px */
 }
 .latest-news a{
     text-decoration: none;
+    color: black;
 }
 
 .update-news{
@@ -148,14 +158,20 @@ left margin is 180px */
     /* margin-bottom: 150px; */
 }
 .news{
-    margin-left: 15px;
+    margin-left: 40px;
     box-shadow: 10px 10px 40px #666565;
     border-radius: 8px;
     align-items: center;
     background: #FFFFFF;
-    padding: 15px;
-    width: 400px;
+    padding: 10px;
+    width: 350px;
+    transition: transform .5s;
+    
 
+}
+.news:hover{
+    transform: scale(1.1); 
+    transition-duration: 3s;
 }
 .news img{
     width: 100%;
@@ -192,6 +208,24 @@ left margin is 180px */
     font-weight: normal;
     font-size: 16px;
 }
+.highlight-image:hover {
+    animation: shake 0.8s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
 
 
 /* footer */
@@ -274,12 +308,14 @@ header{
 }
 .latest-news h1{
     font-size: 36px;
+    
 }
 .update-news{
     flex-direction: column;   
 }
 .news{
     margin-top: 15px;
+    width: 300px;
 }
 
 /* Highlight footer */
