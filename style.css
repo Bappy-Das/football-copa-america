@@ -1,8 +1,10 @@
+/*-------------- body ------------------*/
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
-    overflow: hidden;
+    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 .container{
     background-color: #2D25A0;
@@ -71,9 +73,48 @@ nav{
     margin-bottom: 86px;
 }
 
+/*--------------- player------------ */
+.players{
+margin:70px 210px 160px 180px ;
+background: #FFFFFF;
 
-
-
+/* top margin is 70px
+right margin is 21px
+bottom margin is 160px
+left margin is 180px */
+}
+.all-player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* margin: 70 210 160 180; */
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    width: 100%;
+}
+.player{
+    box-shadow: 10px 10px 40px #e0dcdc;
+    border-radius: 5px;
+    align-items: center;
+    /* width: 330px; */
+    height: 474px;
+    background: #FFFFFF;
+    padding: 15px;
+}
+.player-image{
+    align-items: center;
+}
+.player-image img{
+    width: 300px;
+    height: 256px;
+}
+.player h3{
+    font-size: 28px;
+    margin: 16px 0 10px;
+}
+.player p{
+    font-size: 16px;
+    font-weight: normal;
+}
 
 
 
