@@ -44,19 +44,21 @@ nav{
 /*---------- banner----------- */
 .banner{
     display: flex;
-    /* width: 50%; */
+    width: 100%;
+    
 }
 .half{
-    width: 50%;
+    width: 40%;
 }
 .banner-main{
-    margin-left: 156px;
+    margin-left: 200px;
     margin-top: 67px;
     margin-bottom: 204px;
+    width: 35%;
 }
 .banner-title{
     /* font-weight: bold; */
-    font-size: 64px;
+    font-size: 60px;
     color: #FFFFFF;
 }
 .whatch-live{
@@ -172,6 +174,9 @@ left margin is 180px */
 .news:hover{
     transform: scale(1.1); 
     transition-duration: 3s;
+}
+.news h3{
+    font-size: 15px;
 }
 .news img{
     width: 100%;
